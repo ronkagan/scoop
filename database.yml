@@ -1,0 +1,36 @@
+users:
+  glen close:
+    username: glen close
+    articleIds:
+      - 1
+    commentIds: []
+  ron:
+    username: ron
+    articleIds:
+      - 3
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: oscar buzz ----------
+    url: 'https://www.google.com/'
+    username: glen close
+    commentIds: []
+    upvotedBy:
+      - glen close
+      - ron
+    downvotedBy: []
+    comments: []
+  '2': null
+  '3':
+    id: 3
+    title: shibori
+    url: 'https://www.youtube.com/user/FasterCRAFTER'
+    username: ron
+    commentIds: []
+    upvotedBy:
+      - ron
+    downvotedBy: []
+nextArticleId: 4
+comments: {}
+nextCommentId: 1
